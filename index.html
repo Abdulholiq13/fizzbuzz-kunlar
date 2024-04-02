@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>FizBuzz</title>
+  </head>
+  <body>
+    <!-- Fizz Buzz -->
+    <div class="container mx-auto mt-[100px] bg-gray-100 p-10">
+      <h2 class="text-center text-3xl text-black mb-5">FizzBuzz</h2>
+      <input
+        id="fizzbuzz-input"
+        class="mx-auto mb-5 w-full rounded border border-gray-500 p-3 focus:outline-black block placeholder:text-sm"
+        type="number"
+        placeholder="Raqam kiriting"
+      />
+      <button
+        id="fizzbuzz-button"
+        class="w-full mb-5 border border border-black text-white bg-black p-3 rounded hover:bg-white hover:text-black text-sm transition ease delay-30"
+      >
+        Natijani ko'rish
+      </button>
+      <h2
+        id="fizzbuzz-text"
+        class="p-2 w-1/4 bg-white text-black text-center mx-auto rounded border border-black text-xl hidden"
+      ></h2>
+    </div>
+
+    <!-- Hafta kunlari -->
+    <div class="container mx-auto mt-[100px] p-10 bg-gray-100">
+      <h2 class="text-center text-3xl text-blue-400 mb-5">Hafta kunlari</h2>
+      <input
+        id="days-input"
+        class="mx-auto mb-5 w-full rounded border border-blue-400 p-3 focus:outline-blue-400 block placeholder:text-sm"
+        type="number"
+        placeholder="Raqam kiriting"
+      />
+      <button
+        id="days-button"
+        class="w-full mb-5 border border border-blue-400 text-white bg-blue-400 p-3 rounded hover:bg-white hover:text-blue-400 text-sm transition ease delay-30"
+      >
+        Natijani ko'rish
+      </button>
+      <h2 id="days-text" class="p-2 w-1/4 bg-white text-yellow-400 text-center mx-auto text-xl hidden"></h2>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
